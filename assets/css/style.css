@@ -1,13 +1,16 @@
+/* size all html elements based on true total size */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* the  main page*/
 body {
     background-color: #d9dcd6;
 }
 
+/* the header menu */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* the header title */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* the emphasis of the business name should be differently colored */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* the menu bar */
 nav {
     display: flex;
     float: right;
@@ -33,20 +39,20 @@ nav {
     margin-left: 25px;
 }
 
+/* the menu bar items */
 nav a {
     padding-top: 15px;
     margin-right: 20px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* plaintext in sections */
 p {
     font-size: 16px;
 }
 
+/* class for main landing image */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,6 +62,7 @@ p {
     background-position: center;
 }
 
+/* classes for positioning elements */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -66,12 +73,14 @@ p {
     margin-left: 25px;
 }
 
+/* class for left side content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* class for right side content */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,6 +92,7 @@ p {
     background-color: #2589bd;
 }
 
+/* classes for specific left side content */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,6 +109,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
 }
 
 .social-media-marketing {
@@ -110,17 +121,23 @@ p {
     color: #ffffff;
 }
 
+/* classes for left side content images */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* classes for left side content headings */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
 }
 
 .online-reputation-management h2 {
@@ -128,15 +145,12 @@ p {
     font-size: 36px;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* classes for right side content boxes */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -152,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* classes for right side content headings */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -167,6 +182,7 @@ p {
     text-align: center;
 }
 
+/* classes for right side content images */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -185,6 +201,7 @@ p {
     max-width: 150px;
 }
 
+/* footer classes */
 footer {
     padding: 30px;
     clear: both;
